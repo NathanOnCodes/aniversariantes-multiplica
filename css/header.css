@@ -1,0 +1,72 @@
+.barra {
+    display: flex;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    background-image: url('../assets/images/background-image-header.png');
+    background-size: cover;
+}
+
+.barra ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.barra li {
+    margin-top: 18px;
+    padding-right: 10px;
+}
+
+.barra img {
+    justify-content: flex-start;
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.barra a {
+    margin-left: auto;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.barra li:hover a {
+    color: rgb(156, 0, 86);
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 420px) {
+    .barra {
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .barra ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    
+    .barra li {
+        margin-top: 18px;
+        padding-right: 2px;
+    }
+    
+    .barra img {
+        width: 30%;
+        height: 5vh;
+        margin-top: 15px;
+    }
+    
+    .barra a {
+        font-size: 22px;
+    }
+}
+

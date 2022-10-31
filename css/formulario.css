@@ -1,0 +1,104 @@
+.formulario {
+    min-height: calc(95vh + 72px);
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(370deg, #bddfe6dc 50%, white 30%);
+    
+}
+
+
+.formulario__titulo{
+    font-size: 56px;
+    text-align: center;
+    color: rgb(156, 0, 86);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+
+.formulario__cadastro {
+    margin: auto;
+    padding-top: 1%;
+    box-shadow: 4px 3px 2.5px 2.5px rgb(222, 5, 124);
+    border: rgb(156, 0, 86) solid 5px;
+    border-radius: 3px;
+    background-color: #efefef;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+
+}
+
+.formulario__cadastro input {
+    border-radius: 20px;
+    border: solid white 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(156, 0, 86);
+}
+
+.formulario__cadastro input:nth-child(2){
+    font-size: 14px;
+}
+
+.formulario__cadastro label {
+    padding-left: 12px;
+    margin-top: 1.5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(156, 0, 86);
+}
+.formulario__mensagem-dataIncorreta, .formulario__mensagem-dataIncorreta--CPF{ 
+    text-align: center;
+    font-size: 26px;
+    color: rgb(156, 0, 86);
+    font-weight: bold;
+}
+
+.formulario__mensagem-dataIncorreta p, .formulario__mensagem-dataIncorreta--CPF p{
+    font-family: 'Silkscreen', cursive;
+    font-family: bold;
+    margin-top: 1.5px;
+    padding-bottom: 15px;
+}
+
+.formulario__botao {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #94b6be;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.formulario__botao:hover {
+    background-color: rgb(156, 0, 86);
+    border-color: rgb(156, 0, 86);
+}
+
+
+@media screen and (max-width: 420px) {
+    .formulario__cadastro{
+        max-width: 75%;
+        box-shadow: none;
+        margin-top: 10px;
+    }
+    .formulario__botao{
+        width: 120px;
+    }
+    .formulario__titulo{
+        width: 100%;
+        justify-content: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+ }

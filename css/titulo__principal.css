@@ -1,0 +1,56 @@
+.titulo__principal {
+    padding-top: 72px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em 0.8em #94b6be;
+
+}
+
+.titulo__principal h1 {
+    margin-top: 36px;
+    font-size: 62px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px black;
+}
+
+
+@media screen and (max-width: 420px) {
+    .titulo__principal {
+        max-width: 100%;
+        margin-top: 3px;
+    }
+    .secao__aniversariantes-filtrados > section > h1 {
+        margin: auto;
+        margin-top: 36px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo__principal {
+        padding-top: 0px;
+        margin-top: 75px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-weight: 700;
+        text-shadow: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .titulo__principal h1 {
+        margin-top: 22px;
+        font-size: 58px;
+    }
+
+    .titulo__principal {
+        padding-top: 30px;
+        margin-top: 88px;
+    }
+
+}

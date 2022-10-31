@@ -1,0 +1,105 @@
+.rodape {
+    background: rgb(121, 201, 200);
+    width: 100%;
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+}
+
+.rodape__contato--titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.rodape__contato--icones {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.rodape__contato--icones svg {
+    color: darkslategrey;
+}
+
+.rodape__contato--titulo a {
+    color: white;
+    line-height: 10%;
+    text-decoration: none;
+
+}
+
+.rodape__contato--titulo a:hover {
+    color: rgb(156, 0, 86);
+    text-decoration: underline;
+
+}
+
+.rodape__copyright {
+    width: 100%;
+    background: rgba(2,9,63,255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape__copyright p {
+    margin-right: 6px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rodape__copyright a {
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+    font-size: 18px;
+    color: white;
+}
+
+.ropade--voltar-topo {
+    position: fixed;
+    z-index: 1000;
+    bottom: 5%;
+    left: 95%;
+    padding: 7px;
+    color: black;
+    border: solid 3px darkmagenta;
+    border-radius: 3px;
+}
+
+.rodape--voltar-topo svg {
+    color: black;
+}
+
+@media screen and (max-width: 420px) {
+    .ropade--voltar-topo {
+        bottom: 15%;
+        left: 5%;
+    }
+
+    .rodape__copyright {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .rodape__copyright a {
+        width: 50%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ropade--voltar-topo {
+        bottom: 15%;
+        left: 5%;
+    }
+}

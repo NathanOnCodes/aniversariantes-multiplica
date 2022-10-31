@@ -1,0 +1,42 @@
+/* Importando fonts e outras paradas */
+@import url('../reset/reset.css');
+@import url('header.css');
+@import url('titulo__principal.css');
+@import url('secao__aniversariantes.css');
+@import url('secao__buscador.css');
+@import url('formulario.css');
+@import url('secao__curiosidade.css');
+@import url('rodape.css');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../assets/images/background-image-header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -8%;
+}
+
+@media screen and (max-width: 420) {
+    body, html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-position-y: -1.5%;
+    }
+}
+
+@media screen and (max-width: 768px){  
+    body{
+        background-position-y: -1.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-position-y: -1.5%;
+    }
+}

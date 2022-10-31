@@ -1,0 +1,185 @@
+.secao__aniversariantes-filtrado {
+    width: 100%;
+}
+
+.secao__aniversariantes {
+    margin-top: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    min-height: 80vh;
+
+}
+
+.secao__aniversariantes li {
+    margin-top: 180px;
+    padding-top: 20px;
+    text-align: center;
+    animation: bounce-in-top 3.8s ease;
+}
+
+.secao__aniversariantes h3 {
+    font-size: 26px;
+    color: rgb(156, 0, 86);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 60%;
+}
+
+.secao__aniversariantes h4 {
+    color: rgb(156, 0, 86);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.secao__aniversariantes img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#secao__aniversariantes__meme {
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    margin-top: 6px;
+    padding-bottom: 10px;
+}
+
+.secao_aniversariantes--naoEncontramos {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: rgb(156, 0, 86);
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 0.8px 0.8px 0.2px black;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        -webkit-transform: translateX(-65px);
+        transform: translateX(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        -webkit-transform: translateX(-28px);
+        transform: translateX(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .secao__aniversariantes {
+        flex-direction: column;
+    }
+
+    .secao__aniversariantes li {
+        padding-top: 1px;
+        margin-top: 10px;
+        padding-top: 1px;
+    }
+
+    .secao__aniversariantes:nth-child(1) {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .secao__aniversariantes img {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .secao__aniversariantes h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 30%;
+    }
+
+    .secao__aniversariantes h4 {
+        text-align: center;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .secao__aniversariantes {
+        flex-direction: column;
+    }
+
+    .secao__aniversariantes li:last-child {
+        padding-bottom: 16px;
+    }
+
+    .secao__aniversariantes li:first-child {
+        padding-top: 26px;
+    }
+
+    .secao__aniversariantes img {
+        margin-top: 16px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .secao__aniversariantes h3 {
+        font-size: 21px;
+    }
+
+    .secao__aniversariantes img {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -14,7 +14,7 @@
     text-align: center;
     color: rgb(156, 0, 86);
     border: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 5px;
     font-weight: bold;
 
@@ -36,7 +36,7 @@
 .formulario__cadastro input {
     border-radius: 20px;
     border: solid white 2px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: rgb(156, 0, 86);
 }
@@ -48,7 +48,7 @@
 .formulario__cadastro label {
     padding-left: 12px;
     margin-top: 1.5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: rgb(156, 0, 86);
 }

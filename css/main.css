@@ -16,7 +16,7 @@ body {
     background-image: url('../assets/images/background-image-header.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: -8%;
+    background-position-y: -8.5%;
 }
 
 @media screen and (max-width: 420) {

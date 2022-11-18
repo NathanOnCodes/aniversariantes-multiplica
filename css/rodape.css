@@ -66,7 +66,7 @@
 .ropade--voltar-topo {
     position: fixed;
     z-index: 1000;
-    bottom: 5%;
+    bottom: 15%;
     left: 95%;
     padding: 7px;
     color: black;

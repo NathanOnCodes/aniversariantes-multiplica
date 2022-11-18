@@ -10,7 +10,7 @@
     font-size: 62px;
     color: rgb(156, 0, 86);
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .secao__buscador input {
@@ -19,6 +19,8 @@
     border: solid rgb(156, 0, 86) 3px;
     border-radius: 20px;
     width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .secao__buscador input::placeholder {

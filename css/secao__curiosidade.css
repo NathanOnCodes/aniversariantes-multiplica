@@ -28,7 +28,7 @@
 
 .secao__curiosidade--titulo {
     color: rgb(156, 0, 86);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 1.75em;
     margin-bottom: 12px;
@@ -36,7 +36,7 @@
 
 .secao__curiosidade--texto {
     color: rgb(156, 0, 86);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 1.15em;
 }

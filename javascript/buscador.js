@@ -9,8 +9,10 @@ export const buscador = () => {
             const valor = event.target.value.toUpperCase();
             const recebe = await Api;
             const filtro = recebe.filter((name) => {
-                if (name.name.toUpperCase() === valor) {
-                    return name.name;
+                if(valor.length >= 3){
+                    if (name.name.toUpperCase() === valor || name.name.toUpperCase().includes(valor)) {
+                        return name.name;
+                    }
                 }
             });
             const filtroFormatado = filtro

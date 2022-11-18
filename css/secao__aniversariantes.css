@@ -22,7 +22,7 @@
 .secao__aniversariantes h3 {
     font-size: 26px;
     color: rgb(156, 0, 86);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     margin-top: 20px;
     line-height: 60%;
@@ -30,7 +30,7 @@
 
 .secao__aniversariantes h4 {
     color: rgb(156, 0, 86);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -39,6 +39,7 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 #secao__aniversariantes__meme {
